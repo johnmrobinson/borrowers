@@ -6,6 +6,7 @@
 
 
 <form {{action "save" on="submit"}}>
+	<h2>{{errorMessage}}</h2>
 	<p>
 		<label for="">First Name:
 			{{input value=model.firstName}}
@@ -27,7 +28,7 @@
 		</label>
 	</p>
 	{{input type="checkbox" name=trusted}}
-	
+
 	<input type="submit" value="Save"/>
 	<button {{action "cancel"}}>Cancel</button>
 </form>

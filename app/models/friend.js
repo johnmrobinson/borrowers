@@ -5,5 +5,11 @@ export default DSS.Model.extend({
   lastName: DSS.attr('string'),
   email: DSS.attr('string'),
   twitter: DSS.attr('string'),
-  totalArticles: DSS.attr('number')
+  totalArticles: DSS.attr('number'),
+  fullName: Ember.computed('firstName','lastName',{
+  	get() {
+  		return this.get('firstName') + ' ' + this.get('lastName');
+  	}
+  })
+
 });
