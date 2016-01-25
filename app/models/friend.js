@@ -7,3 +7,4 @@ export default DS.Model.extend({
   twitter: DS.attr('string'),
   totalArticles: DS.attr('number')
 });
+
