@@ -1,9 +1,9 @@
-import DS from 'ember-data';
+import DSS from 'ember-data';
 
-export default DS.Model.extend({
-  firstName: DS.attr('string'),
-  lastName: DS.attr('string'),
-  email: DS.attr('string'),
-  twitter: DS.attr('string'),
-  totalArticles: DS.attr('number')
+export default DSS.Model.extend({
+  firstName: DSS.attr('string'),
+  lastName: DSS.attr('string'),
+  email: DSS.attr('string'),
+  twitter: DSS.attr('string'),
+  totalArticles: DSS.attr('number')
 });
