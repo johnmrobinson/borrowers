@@ -9,3 +9,5 @@ export default DS.Model.extend({
   buster: DS.attr('string'),
   brown: DS.attr('string')
 });
+
+
