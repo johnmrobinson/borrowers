@@ -8,6 +8,13 @@ export default Ember.Route.extend({
 	model() {
 		return this.store.findAll('friend');
 		// return this.store.queryRecord('friend',{firstName: 'Sam'});
+	},
+	actions: {
+		delete(friend) {
+			friend.destroyRecord().then(()=> {
+				this.transitionTo('friends.index');
+			});
+		}
 	}
 
 });

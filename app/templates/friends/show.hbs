@@ -8,4 +8,6 @@
 {{#link-to 'friends'}}Index{{/link-to}} | 
 
 {{!-- {{#link-to 'friends.edit' model}}Edit {{model.fullName}}{{/link-to}} --}}
-{{link-to "Edit friend" "friends.edit" model}}
+{{link-to "Edit friend" "friends.edit" model}} | 
+
+<a href="#" {{action "delete" model}}>Delete</a>
