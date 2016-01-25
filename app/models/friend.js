@@ -6,5 +6,5 @@ export default DS.Model.extend({
   email: DS.attr('string'),
   twitter: DS.attr('string'),
   totalArticles: DS.attr('number')
-  // buster: DS.attr('string')
+  buster: DS.attr('string')
 });
