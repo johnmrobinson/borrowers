@@ -1,3 +1,4 @@
+import Ember from 'ember';
 import DSS from 'ember-data';
 
 export default DSS.Model.extend({
