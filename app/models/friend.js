@@ -5,6 +5,7 @@ export default DS.Model.extend({
   lastName: DS.attr('string'),
   email: DS.attr('string'),
   twitter: DS.attr('string'),
-  totalArticles: DS.attr('number')
-  buster: DS.attr('string')
+  totalArticles: DS.attr('number'),
+  buster: DS.attr('string'),
+  brown: DS.attr('string')
 });
